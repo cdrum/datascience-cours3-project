@@ -12,9 +12,10 @@ The data set is structured in 4 columns:
 
 ## 3. Measurement
  The original expirments collected 561-feature vectors with time and frequency domain variables. For purposes of this data analysis, we were particularly interested in only Mean and Standard Deviation feature vectors (measurements). There are 86 different Mean and Standard Deviation measurements recorded for each Subject/Activity pair. I.e. Subject 1 (John), as he was WALKING, 86 different measurementns were taken. Each row represents a value for one of these distinct measurement. The possible measurement are:
-. tBodyAcc.Mean-X
-. tBodyAcc.Mean-Y
-. tBodyAcc.Mean-Z
+ 
+* tBodyAcc.Mean-X
+* tBodyAcc.Mean-Y
+* tBodyAcc.Mean-Z
     tBodyAcc.StdDev-X
     tBodyAcc.StdDev-Y
     tBodyAcc.StdDev-Z
