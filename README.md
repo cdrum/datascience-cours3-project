@@ -10,6 +10,8 @@ The Script in run_analysis.R reads in very raw measurement data from smart phone
 More information about this study and the data set can be found at:
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
+Note: The data must be in the ./data folder where this script is in the ./ folder. The script does not traverse sub directories, so all data files should be in the ./data folder.
+
 What the script does
 ====================
 
