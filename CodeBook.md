@@ -16,90 +16,90 @@ The data set is structured in 4 columns:
 * tBodyAcc.Mean-X
 * tBodyAcc.Mean-Y
 * tBodyAcc.Mean-Z
-    tBodyAcc.StdDev-X
-    tBodyAcc.StdDev-Y
-    tBodyAcc.StdDev-Z
-    tGravityAcc.Mean-X
-    tGravityAcc.Mean-Y
-    tGravityAcc.Mean-Z
-    tGravityAcc.StdDev-X
-    tGravityAcc.StdDev-Y
-    tGravityAcc.StdDev-Z
-    tBodyAccJerk.Mean-X
-    tBodyAccJerk.Mean-Y
-    tBodyAccJerk.Mean-Z
-    tBodyAccJerk.StdDev-X
-    tBodyAccJerk.StdDev-Y
-    tBodyAccJerk.StdDev-Z
-    tBodyGyro.Mean-X
-    tBodyGyro.Mean-Y
-    tBodyGyro.Mean-Z
-    tBodyGyro.StdDev-X
-    tBodyGyro.StdDev-Y
-    tBodyGyro.StdDev-Z
-    tBodyGyroJerk.Mean-X
-    tBodyGyroJerk.Mean-Y
-    tBodyGyroJerk.Mean-Z
-    tBodyGyroJerk.StdDev-X
-    tBodyGyroJerk.StdDev-Y
-    tBodyGyroJerk.StdDev-Z
-    tBodyAccMag.Mean
-    tBodyAccMag.StdDev
-    tGravityAccMag.Mean
-    tGravityAccMag.StdDev
-    tBodyAccJerkMag.Mean
-    tBodyAccJerkMag.StdDev
-    tBodyGyroMag.Mean
-    tBodyGyroMag.StdDev
-    tBodyGyroJerkMag.Mean
-    tBodyGyroJerkMag.StdDev
-    fBodyAcc.Mean-X
-    fBodyAcc.Mean-Y
-    fBodyAcc.Mean-Z
-    fBodyAcc.StdDev-X
-    fBodyAcc.StdDev-Y
-    fBodyAcc.StdDev-Z
-    fBodyAcc.MeanFreq-X
-    fBodyAcc.MeanFreq-Y
-    fBodyAcc.MeanFreq-Z
-    fBodyAccJerk.Mean-X
-    fBodyAccJerk.Mean-Y
-    fBodyAccJerk.Mean-Z
-    fBodyAccJerk.StdDev-X
-    fBodyAccJerk.StdDev-Y
-    fBodyAccJerk.StdDev-Z
-    fBodyAccJerk.MeanFreq-X
-    fBodyAccJerk.MeanFreq-Y
-    fBodyAccJerk.MeanFreq-Z
-    fBodyGyro.Mean-X
-    fBodyGyro.Mean-Y
-    fBodyGyro.Mean-Z
-    fBodyGyro.StdDev-X
-    fBodyGyro.StdDev-Y
-    fBodyGyro.StdDev-Z
-    fBodyGyro.MeanFreq-X
-    fBodyGyro.MeanFreq-Y
-    fBodyGyro.MeanFreq-Z
-    fBodyAccMag.Mean
-    fBodyAccMag.StdDev
-    fBodyAccMag.MeanFreq
-    fBodyBodyAccJerkMag.Mean
-    fBodyBodyAccJerkMag.StdDev
-    fBodyBodyAccJerkMag.MeanFreq
-    fBodyBodyGyroMag.Mean
-    fBodyBodyGyroMag.StdDev
-    fBodyBodyGyroMag.MeanFreq
-    fBodyBodyGyroJerkMag.Mean
-    fBodyBodyGyroJerkMag.StdDev
-    fBodyBodyGyroJerkMag.MeanFreq
-    angle.tBodyAccMean.gravity
-    angle.tBodyAccJerkMeangravityMean
-    angle.tBodyGyroMean.gravityMean
-    angle.tBodyGyroJerkMean.gravityMean
-    angle.X.gravityMean
-    angle.Y.gravityMean
-    angle.Z.gravityMean
-    
+* tBodyAcc.StdDev-X
+* tBodyAcc.StdDev-Y
+* tBodyAcc.StdDev-Z
+* tGravityAcc.Mean-X
+* tGravityAcc.Mean-Y
+* tGravityAcc.Mean-Z
+* tGravityAcc.StdDev-X
+* tGravityAcc.StdDev-Y
+* tGravityAcc.StdDev-Z
+* tBodyAccJerk.Mean-X
+* tBodyAccJerk.Mean-Y
+* tBodyAccJerk.Mean-Z
+* tBodyAccJerk.StdDev-X
+* tBodyAccJerk.StdDev-Y
+* tBodyAccJerk.StdDev-Z
+* tBodyGyro.Mean-X
+* tBodyGyro.Mean-Y
+* tBodyGyro.Mean-Z
+* tBodyGyro.StdDev-X
+* tBodyGyro.StdDev-Y
+* tBodyGyro.StdDev-Z
+* tBodyGyroJerk.Mean-X
+* tBodyGyroJerk.Mean-Y
+* tBodyGyroJerk.Mean-Z
+* tBodyGyroJerk.StdDev-X
+* tBodyGyroJerk.StdDev-Y
+* tBodyGyroJerk.StdDev-Z
+* tBodyAccMag.Mean
+* tBodyAccMag.StdDev
+* tGravityAccMag.Mean
+* tGravityAccMag.StdDev
+* tBodyAccJerkMag.Mean
+* tBodyAccJerkMag.StdDev
+* tBodyGyroMag.Mean
+* tBodyGyroMag.StdDev
+* tBodyGyroJerkMag.Mean
+* tBodyGyroJerkMag.StdDev
+* fBodyAcc.Mean-X
+* fBodyAcc.Mean-Y
+* fBodyAcc.Mean-Z
+* fBodyAcc.StdDev-X
+* fBodyAcc.StdDev-Y
+* fBodyAcc.StdDev-Z
+* fBodyAcc.MeanFreq-X
+* fBodyAcc.MeanFreq-Y
+* fBodyAcc.MeanFreq-Z
+* fBodyAccJerk.Mean-X
+* fBodyAccJerk.Mean-Y
+* fBodyAccJerk.Mean-Z
+* fBodyAccJerk.StdDev-X
+* fBodyAccJerk.StdDev-Y
+* fBodyAccJerk.StdDev-Z
+* fBodyAccJerk.MeanFreq-X
+* fBodyAccJerk.MeanFreq-Y
+* fBodyAccJerk.MeanFreq-Z
+* fBodyGyro.Mean-X
+* fBodyGyro.Mean-Y
+* fBodyGyro.Mean-Z
+* fBodyGyro.StdDev-X
+* fBodyGyro.StdDev-Y
+* fBodyGyro.StdDev-Z
+* fBodyGyro.MeanFreq-X
+* fBodyGyro.MeanFreq-Y
+* fBodyGyro.MeanFreq-Z
+* fBodyAccMag.Mean
+* fBodyAccMag.StdDev
+* fBodyAccMag.MeanFreq
+* fBodyBodyAccJerkMag.Mean
+* fBodyBodyAccJerkMag.StdDev
+* fBodyBodyAccJerkMag.MeanFreq
+* fBodyBodyGyroMag.Mean
+* fBodyBodyGyroMag.StdDev
+* fBodyBodyGyroMag.MeanFreq
+* fBodyBodyGyroJerkMag.Mean
+* fBodyBodyGyroJerkMag.StdDev
+* fBodyBodyGyroJerkMag.MeanFreq
+* angle.tBodyAccMean.gravity
+* angle.tBodyAccJerkMeangravityMean
+* angle.tBodyGyroMean.gravityMean
+* angle.tBodyGyroJerkMean.gravityMean
+* angle.X.gravityMean
+* angle.Y.gravityMean
+* angle.Z.gravityMean
+* 
 ### From thr original experiment: 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -110,51 +110,51 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are _(and a [*] is appended at the end for the values we're focusing on for this analysis)_: 
 
-mean(): Mean value [*]
-std(): Standard deviation [*]
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency [*]
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+* mean(): Mean value [\*]
+* std(): Standard deviation [\*]
+* mad(): Median absolute deviation 
+* max(): Largest value in array
+* min(): Smallest value in array
+* sma(): Signal magnitude area
+* energy(): Energy measure. Sum of the squares divided by the number of values. 
+* iqr(): Interquartile range 
+* entropy(): Signal entropy
+* arCoeff(): Autorregresion coefficients with Burg order equal to 4
+* correlation(): correlation coefficient between two signals
+* maxInds(): index of the frequency component with largest magnitude
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency [*]
+* skewness(): skewness of the frequency domain signal 
+* kurtosis(): kurtosis of the frequency domain signal 
+* bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean [*]
-tBodyAccMean [*]
-tBodyAccJerkMean [*]
-tBodyGyroMean [*]
-tBodyGyroJerkMean [*]
+* gravityMean [*]
+* tBodyAccMean [*]
+* tBodyAccJerkMean [*]
+* tBodyGyroMean [*]
+* tBodyGyroJerkMean [*]
 
 ## 4. Average_Measure
  Each subject was asked to conduct several iterations of each activity test. E.g., Subject 1 (John) was asked to conduct his WALKING activity, and multiple distinct recordings of each of the 86 measurements were recorded. This field represents the average of all values for the respective Measurement the SUbject did while doing his/her activity (WALKING).
