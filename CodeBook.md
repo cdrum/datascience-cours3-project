@@ -1,22 +1,20 @@
-The codebook still has the specific description of the tidy data file contents (and you mention that it exists and it’s role in the ReadMe)
-
 # Result_Summary_Data.txt Data Dictionary
 
 The data set is structured in 4 columns:
 
-## Subject
+## 1. Subject
  Index value representing the subject (human) who participated in the study and generated the study results.
  There are 30 different subjects, each represented by an integer from 1 to 30.
 
-## Activity
+## 2. Activity
  The different activities the subjects were asked to do during the testing. There are 6 possibilities, named explicitely in the data set:
  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-## Measurement
+## 3. Measurement
  The original expirments collected 561-feature vectors with time and frequency domain variables. For purposes of this data analysis, we were particularly interested in only Mean and Standard Deviation feature vectors (measurements). There are 86 different Mean and Standard Deviation measurements recorded for each Subject/Activity pair. I.e. Subject 1 (John), as he was WALKING, 86 different measurementns were taken. Each row represents a value for one of these distinct measurement. The possible measurement are:
-    tBodyAcc.Mean-X
-    tBodyAcc.Mean-Y
-    tBodyAcc.Mean-Z
+.tBodyAcc.Mean-X
+.tBodyAcc.Mean-Y
+.tBodyAcc.Mean-Z
     tBodyAcc.StdDev-X
     tBodyAcc.StdDev-Y
     tBodyAcc.StdDev-Z
@@ -129,7 +127,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are (and a * is appended at the end for the values we're focusing on for this analysis): 
+The set of variables that were estimated from these signals are _(and a [*] is appended at the end for the values we're focusing on for this analysis)_: 
 
 mean(): Mean value [*]
 std(): Standard deviation [*]
@@ -157,6 +155,6 @@ tBodyAccJerkMean [*]
 tBodyGyroMean [*]
 tBodyGyroJerkMean [*]
 
-## Average_Measure
+## 4. Average_Measure
  Each subject was asked to conduct several iterations of each activity test. E.g., Subject 1 (John) was asked to conduct his WALKING activity, and multiple distinct recordings of each of the 86 measurements were recorded. This field represents the average of all values for the respective Measurement the SUbject did while doing his/her activity (WALKING).
  The original data set provided values of the Features normalized and bounded within [-1,1]. Since this new data set is simply means of these same values, the values in the data set are also normalized and bounded within [-1,1].
