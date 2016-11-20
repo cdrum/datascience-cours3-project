@@ -4,16 +4,16 @@ The codebook still has the specific description of the tidy data file contents (
 
 The data set is structured in 4 columns:
 
-Subject
+## Subject
  Index value representing the subject (human) who participated in the study and generated the study results.
  There are 30 different subjects, each represented by an integer from 1 to 30.
 
-Activity
+## Activity
  The different activities the subjects were asked to do during the testing. There are 6 possibilities, named explicitely in the data set:
  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Measurement
- There are 86 different Mean and Standard Deviation measurements recorded for each Subject/Activity pair. I.e. Subject 1 (John), as he was WALKING, 86 different measurementns were taken. Each row represents a value for one of these distinct measurement. The possible measurement are:
+## Measurement
+ The original expirments collected 561-feature vectors with time and frequency domain variables. For purposes of this data analysis, we were particularly interested in only Mean and Standard Deviation feature vectors (measurements). There are 86 different Mean and Standard Deviation measurements recorded for each Subject/Activity pair. I.e. Subject 1 (John), as he was WALKING, 86 different measurementns were taken. Each row represents a value for one of these distinct measurement. The possible measurement are:
     tBodyAcc.Mean-X
     tBodyAcc.Mean-Y
     tBodyAcc.Mean-Z
@@ -100,6 +100,63 @@ Measurement
     angle.X.gravityMean
     angle.Y.gravityMean
     angle.Z.gravityMean
+    
+### From thr original experiment: 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-Average_Measure
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are (and a * is appended at the end for the values we're focusing on for this analysis): 
+
+mean(): Mean value [*]
+std(): Standard deviation [*]
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency [*]
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean [*]
+tBodyAccMean [*]
+tBodyAccJerkMean [*]
+tBodyGyroMean [*]
+tBodyGyroJerkMean [*]
+
+## Average_Measure
  Each subject was asked to conduct several iterations of each activity test. E.g., Subject 1 (John) was asked to conduct his WALKING activity, and multiple distinct recordings of each of the 86 measurements were recorded. This field represents the average of all values for the respective Measurement the SUbject did while doing his/her activity (WALKING).
+ The original data set provided values of the Features normalized and bounded within [-1,1]. Since this new data set is simply means of these same values, the values in the data set are also normalized and bounded within [-1,1].
