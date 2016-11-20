@@ -1,4 +1,5 @@
-# Result_Summary_Data.txt Data Dictionary
+# Summarized Result Set Data Dictionary
+### Chris Drumgoole (Data Science Course Lession 3 Project)
 
 The data set is structured in 4 columns:
 
@@ -99,7 +100,7 @@ The data set is structured in 4 columns:
 * angle.X.gravityMean
 * angle.Y.gravityMean
 * angle.Z.gravityMean
-* 
+
 ### From thr original experiment: 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -150,11 +151,11 @@ The set of variables that were estimated from these signals are _(and a [*] is a
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-* gravityMean [*]
-* tBodyAccMean [*]
-* tBodyAccJerkMean [*]
-* tBodyGyroMean [*]
-* tBodyGyroJerkMean [*]
+* gravityMean [\*]
+* tBodyAccMean [\*]
+* tBodyAccJerkMean [\*]
+* tBodyGyroMean [\*]
+* tBodyGyroJerkMean [\*]
 
 ## 4. Average_Measure
  Each subject was asked to conduct several iterations of each activity test. E.g., Subject 1 (John) was asked to conduct his WALKING activity, and multiple distinct recordings of each of the 86 measurements were recorded. This field represents the average of all values for the respective Measurement the SUbject did while doing his/her activity (WALKING).
