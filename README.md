@@ -15,12 +15,14 @@ What the script does
 
 The script attempts to do the following:
 
-1 Read into data frames raw data from (test results, training results, measurement labels (for the results), activity labels, and the subjects who participated in the experiements)
-2 Applies the measurement labels to the test and training results data sets so each measure can be understood, in form of columns in the data frame
-3 Combine the subjects and their respective acvitives to both the test and training results
-4 Merges the test and training data sets into a single combined data set
-5 Extracts only measurments related to Mean and Standard Deviation since we're only intrested in those]
-6 Generates a second, independent tidy data set with the average of each measurement for each activity and each subject.
+1. Read into data frames raw data from (test results, training results, measurement labels (for the results), activity labels, and the subjects who participated in the experiements)
+
+2. Applies the measurement labels to the test and training results data sets so each measure can be understood, in form of columns in the data frame
+
+3. Combine the subjects and their respective acvitives to both the test and training results
+4. Merges the test and training data sets into a single combined data set
+5. Extracts only measurments related to Mean and Standard Deviation since we're only intrested in those]
+6. Generates a second, independent tidy data set with the average of each measurement for each activity and each subject.
 
 Data Set Output
 ===============
